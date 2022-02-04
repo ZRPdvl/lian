@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lian</title>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__item">
+                <div class="header__left">
+                    <a class="header__logo" href="#"><img class="header__logo--img" src="/index/img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="header_right">
+                    <div class="header__burger">
+                        <span class="header__burger--line"></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__menu--lists">
+                            <li class="header__menu--list">
+                                <a class="header__menu--link header__menu--link--active" href="#">Home</a>
+                            </li>
+                            <li class="header__menu--list">
+                                <a class="header__menu--link" href="#">About</a>
+                            </li>
+                            <li class="header__menu--list">
+                                <a class="header__menu--link" href="#">Portfolio</a>
+                            </li>
+                            <li class="header__menu--list">
+                                <a class="header__menu--link" href="#">Blog</a>
+                            </li>
+                            <li class="header__menu--list">
+                                <a class="header__menu--link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__search">
+                        <div class="search-box">
+                            <button class="btn-search"></button> 
+                            <input type="text" class="input-search" placeholder="Type to Search...">
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header__slider swiper">
+        <div class="header__slider--wrapper swiper-wrapper">
+            <div class="header__slider--item swiper-slide">
+                <img class="header__slider--img" src="./img/slider.jpg" alt="">
+                <div class="header__slider--text">
+                    <h1 class="slider__text--tittel">Lian Creative Agency</h1>
+                    <p class="slider__text--subtittel">Minimal Freelance Portfolio </p>
+                </div>
+            </div>
+            <div class="header__slider--item swiper-slide">
+                <img class="header__slider--img" src="./img/slider.jpg" alt="">
+                <div class="header__slider--text">
+                    <h1 class="slider__text--tittel">Lian Creative 22</h1>
+                    <p class="slider__text--subtittel">Minimal Freelance Portfolio </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button swiper-button-next"></div>
+      <div class="swiper-button swiper-button-prev"></div>
+    </div>
+    <div class="gallery">
+        <div class="container">
+            <div class="gallery__item">
+                <div class="gallery__filter">
+                    <div class="gallety__filter--categories">Categories</div>
+                    <ul class="gallery__filter--lists">
+                        <li class="gallery__filter--list"><button data-filter="*" class="galery__filter--btn galery__filter--btn--active" >ALL</button></li>
+                        <li class="gallery__filter--list"><button data-filter=".logo" class="galery__filter--btn" >Logo</button></li>
+                        <li class="gallery__filter--list"><button data-filter=".mobile" class="galery__filter--btn" >Mobile App</button></li>
+                        <li class="gallery__filter--list"><button data-filter=".wordpress" class="galery__filter--btn" >Wordpress</button></li>
+                        <li class="gallery__filter--list"><button data-filter=".design" class="galery__filter--btn" >Web Design</button></li>
+                        <li class="gallery__filter--list"><button data-filter=".uiux" class="galery__filter--btn" >Ui/Ux</button></li>
+                        <li class="gallery__filter--list"><button data-filter=".branding" class="galery__filter--btn" >Branding</button></li>
+                    </ul>
+                </div>
+                <div class="gallery__body grid">
+                    <div class="gallery__body--item grid-item logo">
+                        <img class="gallery__body--img" src="./img/g1.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__body--item grid-item">
+                        <img class="gallery__body--img" src="./img/g2.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__body--item grid-item logo">
+                        <img class="gallery__body--img" src="./img/g3.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__body--item grid-item">
+                        <img class="gallery__body--img" src="./img/g4.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__body--item grid-item">
+                        <img class="gallery__body--img" src="./img/g5.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__body--item grid-item">
+                        <img class="gallery__body--img" src="./img/g6.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__body--item grid-item">
+                        <img class="gallery__body--img" src="./img/g7.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__body--item grid-item">
+                        <img class="gallery__body--img" src="./img/g8.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__body--item grid-item">
+                        <img class="gallery__body--img" src="./img/g9.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="gallery__body--item grid-item">
+                        <img class="gallery__body--img" src="./img/g10.jpg" alt="">
+                        <div class="gallery__body--item--hover">
+                            <a class="gallery__hover--btn" href="#"></a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="gallery__btn">
+                    <button class="gallery__btn--item">Load More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__item">
+                <div class="footer__logo">
+                    <img class="footer__logo--item" src="./img/logo.png" alt="">
+                </div>
+                <div class="footer__social">
+                    <ul class="footer__socila--lists">
+                        <li class="footer__social--list"><a class="footer__social--link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="footer__social--list"><a class="footer__social--link" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="footer__social--list"><a class="footer__social--link" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="footer__social--list"><a class="footer__social--link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="footer__social--list"><a class="footer__social--link" href="#"><i class="fab fas fa-basketball-ball"></i></a></li>
+                        <li class="footer__social--list"><a class="footer__social--link" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li class="footer__social--list"><a class="footer__social--link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer__copiright">
+                    <p class="footer__copiright--tetx">© 2016 <span>Mulitix Theme </span> by ThemeForces. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="./js/mein.js"></script>
+</body>
+</html>
